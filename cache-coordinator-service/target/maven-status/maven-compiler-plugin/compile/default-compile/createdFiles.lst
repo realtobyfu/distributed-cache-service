@@ -1,0 +1,11 @@
+com/example/cachecoordinator/controller/NodeController$NodeRegistrationRequest.class
+com/example/cachecoordinator/service/DistributedCacheService.class
+com/example/cachecoordinator/controller/CacheController.class
+com/example/cachecoordinator/partition/ConsistentHashPartitionStrategy.class
+com/example/cachecoordinator/controller/NodeController.class
+com/example/cachecoordinator/service/CacheService.class
+com/example/cachecoordinator/node/NodeRegistry$NodeInfo.class
+com/example/cachecoordinator/partition/PartitionStrategy.class
+com/example/cachecoordinator/service/InMemoryCacheService.class
+com/example/cachecoordinator/node/NodeRegistry.class
+com/example/cachecoordinator/CacheCoordinatorServiceApplication.class

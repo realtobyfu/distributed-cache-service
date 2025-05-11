@@ -54,7 +54,7 @@ The system consists of the following main components:
 ### Prerequisites
 
 - Java 17 or higher
-- Maven 3.6+
+- Maven 3.6+ (install via Homebrew: `brew install maven` on macOS)
 - Docker (for containerized deployment)
 - Kubernetes (for orchestrated deployment)
 
@@ -69,8 +69,10 @@ mvn clean package
 ### Running the Service
 
 ```bash
+# Navigate to the service directory
+cd cache-coordinator-service
 # Run the coordinator service
-java -jar cache-coordinator-service/target/cache-coordinator-service-0.0.1-SNAPSHOT.jar
+java -jar target/cache-coordinator-service-0.0.1-SNAPSHOT.jar
 ```
 
 ## Deployment
